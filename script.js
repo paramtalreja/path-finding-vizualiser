@@ -171,7 +171,7 @@ function solvemaze() {
 
  function haswall(){
      for(var i=1; i<101; i++){
-         if(document.getElementById('node'+i).style.backgroundColor==path){
+         if(document.getElementById('node'+i).style.backgroundColor==wall){
              return true;
          }
      }
